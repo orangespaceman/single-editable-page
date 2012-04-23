@@ -27,7 +27,7 @@ doLoginForEdit = true
 
 ; db connection details
 [db]
-host      = "localhost"
+server    = "localhost"
 username  = "root"
 password  = "root"
 db        = "single_editable_page"
