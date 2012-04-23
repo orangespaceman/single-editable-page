@@ -1,0 +1,4 @@
+config.php
+_includes/img/
+!_includes/img/external-link.png
+_includes/pdf/
