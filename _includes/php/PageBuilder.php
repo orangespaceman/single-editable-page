@@ -106,7 +106,7 @@ class PageBuilder {
 
     $content .= '
         <article>
-          '.$page->content.'
+          '.stripslashes($page->content).'
         </article>
     ';
 
@@ -163,7 +163,7 @@ class PageBuilder {
                 <label>Make your changes below</label>
                 <div class="input-container clearfix">
                   <!-- <label for="content">Content</label> -->
-                  <textarea name="content" id="content" rows="30" cols="40">'.$latest->content.'</textarea>
+                  <textarea name="content" id="content" rows="30" cols="40">'.stripslashes($latest->content).'</textarea>
                 </div>
                 <div class="input-container clearfix">
                   <input class="button" type="submit" name="login" id="button" value="Save" />
