@@ -233,8 +233,8 @@ class PageBuilder {
                     <tr>
                       <th>Version</th>
                       <th>Date</th>
-                      <th>Note</th>
                       <th>Author</th>
+                      <th>Note</th>
                       <th colspan="2">Actions</th>
                     </tr>
                   </thead>
