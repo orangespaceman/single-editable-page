@@ -15,6 +15,7 @@ tinyMCE.init({
     theme_advanced_toolbar_align      : "left",
     theme_advanced_statusbar_location : "bottom",
     theme_advanced_resizing           : true,
+    theme_advanced_blockformats       : "p,h2,h3",
 
     // Example content CSS (should be your site CSS)
     content_css : "_includes/css/site.css",
